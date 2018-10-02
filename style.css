@@ -1,0 +1,10 @@
+._252by326{
+    width:256px;
+    height:326px;
+}
+header, footer{
+text-align: center;
+}
+.thumbnail{
+    width: fit-content;
+}
