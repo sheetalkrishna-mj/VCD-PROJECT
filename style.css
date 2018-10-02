@@ -8,3 +8,6 @@ text-align: center;
 .thumbnail{
     width: fit-content;
 }
+#notification_message{
+	color: red;
+}
