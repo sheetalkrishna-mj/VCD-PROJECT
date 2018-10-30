@@ -1,20 +1,47 @@
 ._252by326{
     width:256px;
     height:326px;
-    background: lightgray;
+    background: #f2f2f2;
     display: table-cell;
     vertical-align: middle;
     text-align: center;
 }
 ._252by326 img{
 	width:256px;
+	max-height: 326px;
 }
 header, footer{
 text-align: center;
 }
 .thumbnail{
     width: fit-content;
+    display: inline-block;
 }
 #notification_message{
 	color: red;
 }
+#index-header{
+	color:  #f2f2f2;
+	font-family: serif;
+	font-style: italic;
+}
+body#prj1-body{
+	     background: linear-gradient(to right, rgb(161, 255, 206), rgb(250, 255, 209));	
+}
+body#prj2-body{
+	    background: linear-gradient(to right, rgb(179, 255, 171), rgb(18, 255, 247));
+}
+
+body#prj3-body{
+	background: linear-gradient(to right, rgb(255, 237, 188), rgb(237, 66, 100));
+}
+body#prj4-body{
+	    background: linear-gradient(to right, rgb(147, 237, 199), rgb(28, 216, 210));
+}
+body#prj5-body{
+    background: linear-gradient(to right, rgb(168, 255, 120), rgb(120, 255, 214));
+}
+body#index-body{
+	background-image: url("images/indexBg.jpg");
+}
+
