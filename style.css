@@ -21,13 +21,16 @@ text-align: center;
 	color: red;
 }
 #index-header{
-	font-family: "Rochester";
 	height: 12em;
     width: -webkit-fill-available;
     position: fixed;
     top: 0;
     z-index: 100;
     background: white;
+}
+h2,h4{
+    
+    font-family: "Rochester";
 }
 #index-header h2{
 	margin-top: 80px;
@@ -48,11 +51,9 @@ body#prj4-body{
 body#prj5-body{
     background: linear-gradient(to right, rgb(168, 255, 120), rgb(120, 255, 214));
 }
-body#index-body{
-	
-}
 
-header::after {
+
+#index-header::after {
     transition: 1s;
     content: "";
     background: url(images/indexBg.jpg);
@@ -65,6 +66,6 @@ header::after {
     background-size: cover;
     opacity: 0.5;
 }
-.container{
+.container1{
 	margin-top: 15em;
 }
